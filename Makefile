@@ -144,7 +144,6 @@ COV_CFG =
 # https://github.com/pytest-dev/pytest-cov/issues/604
 COV_ARGV = \
 	--cov \
-	--cov-context=test \
 	$(addprefix --cov-report=,$(COV_REPORT))
 
 # needed for subprocess coverage
